@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Cadastro</title>	
+		<meta charset="utf-8">
+		<script type ="text/javascript" src ="jquery-2.1.1.min.js"></script>
+		<script type ="text/javascript" src ="jquery.maskedinput.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$( function() {
+			$("#data").mask("99/99/9999");
+			})
+		</script>
+		<form method="post" name="formCadastro" action="processa.php" enctype="multipart/form-data"> <!--envio de arquivos-->
+			<h1>Cadastro de Alunos</h1>
+			<table width="100%"> <!--Tabela ocupando 100% da página-->
+				<tr>
+					<th width="18%">Nome</th>
+					<td width="82%"><input type="text" name="txtNome"></td>
+				</tr>				
+				<tr>
+					<th>Foto</th>
+					<td><input type="file" name="txtFoto"></td>
+				</tr>
+				
+				<tr>
+					<th>Data de Nascimento</th>
+					<td><input type="text" id="data" name="txtData"></td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td></td>				
+					<td><input type="submit" name="bntEnviar" value="Enviar">
+					<input type="reset" name="bntLimpar" value="Limpar"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
