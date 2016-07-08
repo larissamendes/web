@@ -1,0 +1,13 @@
+
+.conteudo{
+margin: 100px 100px;
+}
+.textoSobre{
+position:relative;
+float:right;
+text-align:justify;
+width:800px;
+}
+.conteudo links:hover{
+text-decoration: underline;
+}

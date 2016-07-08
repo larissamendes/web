@@ -1,0 +1,85 @@
+<!--Carolinha Silva Maróstica e Larissa Mendes Silvério-->
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap e Pingendo-->
+	<link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+   <!-- <script type="text/javascript" src="bootstrap.min.js"></script> -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- JQuery -->
+     <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+	 <!-- <script type = "text/javascript" src = "jquery-1.8.2.js"></script> --> 
+	<link rel="stylesheet" href="jquery-ui.css">
+  <!-- <script type = "text/javascript" src = "datepicker-pt-BR.js"></script> -->
+	<!-- Estilização -->
+	<script  type="text/javascript"src="AJAX.js"></script>
+	<link href="trab.css" rel="stylesheet" type="text/css">
+	<!-- DatePicker -->
+	<script  type="text/javascript"src="data.js"></script>
+	
+</head><body>
+	<!-- Cabeçalho -->
+	<div class="cabecalho">    
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<i class="fa fa-5x fa-bicycle fa-fw text-primary"></i>
+					</div>
+					<div class="col-md-5" style="float:right; font-color=#000000">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="inicio.php">HOME</a>
+							</li>
+							<li>
+								<a href="cliente.php">CLIENTES</a>
+							</li>
+							<li>
+								<a href="fornecedores.php">FORNECEDORES</a>
+							</li>
+							<li>
+								<a href="sobre.php">SOBRE</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Conteudo -->
+    <div class="conteudo">
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img1.jpg" class="center-block img-responsive img-rounded">
+						<h1 class="text-justify">Empresa</h1>
+						<p></p>            
+						<h5 class="text-justify">Nossa empresa foi fundada com o objetivo de aproximar as pessoas da natureza. Possibilitando o acesso a meios de transporte sustentaveis. Nosso sistema tem o objetivo de facilitar o acesso a meios de transporte sustentáveis, contamos com diversos clientes fiéis e com uma longa lista de fornecedores. Temos contato com várias empresas que fornecem o suporte adequado para o bom funcionamento da <i>CicleBike</i>, nos ajudando na manutenção de nossas bicicletas e nos fornecem peças para serem trocadas. </h5>	
+					</div>
+					<div class="col-md-6">
+						<img src="img2.jpg" class="center-block img-responsive img-rounded">
+						<h1>Funcionamento</h1>
+						<p></p>
+						<h5 class="text-justify">Alugue uma bicicleta! Existem diversos pontos espalhados pela cidade que possibilitam seu aluguel. Basta inserir seu nome e seu email. Nosso sistema é responsavel por armazenar todas as informações necessarias de cada cliente. Tornando asism possivel que ele alugue uma bicicleta em qualquer ponto da cidade.</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+   
+    <!-- Rodapé -->
+	<div class="rodape">
+		<footer class="section section-primary">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h5>Carol M. e Larissa M. © Copyright 2016 -Todos os direitos reservados</h5>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body></html>
