@@ -1,0 +1,22 @@
+$(document).ready(function(e){
+	$(".cabecalho a").click(function(e){
+		e.preventDefault();
+		var href = $(this).attr('href');
+		$(".conteudo").load(href + " .conteudo");
+	});
+});
+
+function chama(botao) {
+		var href = $(botao).attr('href');
+		$(".conteudo").load(href + " .conteudo");
+}
+
+function validacao() {
+	var nome = document.querySelector("#nome").value;
+ 	var email = document.querySelector("#email").value;
+ 	
+ 	if((nome=="") || (email=="")){
+		alert("Existem campos em branco"); 	
+		return false;
+ 	}
+}
